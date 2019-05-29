@@ -8,7 +8,7 @@
                 "type": "text",
                 "paddingLeft": 12,
                 "paddingRight": 10,
-                "string": "Your details have been recorded",
+                "string": "Visitor Details have been recorded",
                 "fontSize": 12,
                 "textColor": "#667787",
                 "textAlignment": "left",

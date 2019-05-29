@@ -25,12 +25,12 @@
             "showNativeToolbar": false
         }
     }, 
-    "version": "1", 
+    "version": "2", 
     "dials": {
         "isLocalised": true
     }, 
     "schemaVersion": 1, 
     "icon": "AppIcon.png", 
     "id": "com.tofada.visitorandm2m", 
-    "minorVersion": "5"
+    "minorVersion": "1"
 }
