@@ -1,35 +1,35 @@
 {
-    "title": "Patient Grievance Report",
+    "title": "Gate Registration Form",
     "visibility": "All",
     "questions": [{
-        "title": "Complainant's Name",
+        "title": "Filling Person's Name",
         "type": "Text"
     }, {
         "title": "Contact Number",
         "type": "Text"
     }, {
-        "title": "Relationship to Patient",
+        "title": "Role",
         "type": "Text"
     }, {
-        "title": "Patient's Name",
+        "title": "Visitor Name",
         "type": "Text"
     }, {
-        "title": "Date of Birth",
+        "title": "ID Number",
         "type": "Text"
     }, {
-        "title": "Complaint Category",
+        "title": "Phone Number",
         "type": "Text"
     }, {
-        "title": "Date of Incident",
+        "title": "Reason for Visit",
         "type": "Text"
     }, {
-        "title": "Time of Incident",
+        "title": "Date of Visit",
         "type": "Text"
     }, {
-        "title": "Incident Details",
+        "title": "Time of visit",
         "type": "Text"
     }, {
-        "title": "Photos",
+        "title": "Photo",
         "type": "AttachmentList"
     }, {
         "title": "Location",
