@@ -1,0 +1,36 @@
+{
+    "appModel": "AppModel.json", 
+    "actionScope": "Group", 
+    "displayName": "Checkin Visitor", 
+    "description": "Visitor checkin card", 
+    "providerName": "M2M", 
+    "views": {
+        "CreationView": {
+            "sourceLocation": "CreationView.html", 
+            "backDialogVisibility": false, 
+            "showNativeToolbar": false
+        }, 
+        "ChatCanvasCardView": {
+            "showFooter": false, 
+            "showExpiry": false, 
+            "showComments": false, 
+            "isResponseEditable": false, 
+            "showLikes": false, 
+            "showReceipts": false, 
+            "sourceLocation": "ChatCardView.json"
+        }, 
+        "ResponseResultsView": {
+            "sourceLocation": "SummaryView.html", 
+            "backDialogVisibility": false, 
+            "showNativeToolbar": false
+        }
+    }, 
+    "version": "1", 
+    "dials": {
+        "isLocalised": true
+    }, 
+    "schemaVersion": 1, 
+    "icon": "AppIcon.png", 
+    "id": "com.tofada.visitorandm2m", 
+    "minorVersion": "5"
+}

@@ -1,0 +1,38 @@
+{
+    "title": "Patient Grievance Report",
+    "visibility": "All",
+    "questions": [{
+        "title": "Complainant's Name",
+        "type": "Text"
+    }, {
+        "title": "Contact Number",
+        "type": "Text"
+    }, {
+        "title": "Relationship to Patient",
+        "type": "Text"
+    }, {
+        "title": "Patient's Name",
+        "type": "Text"
+    }, {
+        "title": "Date of Birth",
+        "type": "Text"
+    }, {
+        "title": "Complaint Category",
+        "type": "Text"
+    }, {
+        "title": "Date of Incident",
+        "type": "Text"
+    }, {
+        "title": "Time of Incident",
+        "type": "Text"
+    }, {
+        "title": "Incident Details",
+        "type": "Text"
+    }, {
+        "title": "Photos",
+        "type": "AttachmentList"
+    }, {
+        "title": "Location",
+        "type": "Location"
+    }]
+}

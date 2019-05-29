@@ -1,0 +1,63 @@
+{
+    "schemaVersion": 1,
+    "schema": {
+        "type": "container",
+        "initialHeight": 600,
+        "layout": "vertical",
+        "children": [{
+                "type": "text",
+                "paddingLeft": 12,
+                "paddingRight": 10,
+                "string": "Your details have been recorded",
+                "fontSize": 12,
+                "textColor": "#667787",
+                "textAlignment": "left",
+                "fontStyle": "normal",
+                "maxNumberOfLines": 2
+            },
+            {
+                "type": "view",
+                "marginBottom": 10,
+                "marginTop": 10,
+                "width": 350,
+                "height": 1,
+                "backgroundColor": "#f0f0f0"
+            },
+            {
+                "type": "text",
+                "paddingLeft": 12,
+                "string": "${Form.questions[0].title}: ${MyLatestResponse.questionToAnswerMap[0]}",
+                "textAlignment": "left",
+                "textColor": "#32495f",
+                "marginBottom": 6,
+                "fontSize": 12
+            },
+            {
+                "type": "text",
+                "paddingLeft": 12,
+                "string": "${Form.questions[1].title}: ${MyLatestResponse.questionToAnswerMap[1]}",
+                "textColor": "#32495f",
+                "textAlignment": "left",
+                "marginBottom": 8,
+                "fontSize": 12
+            },
+            {
+                "type": "view",
+                "marginBottom": 10,
+                "marginTop": 10,
+                "width": 350,
+                "height": 1,
+                "backgroundColor": "#f0f0f0"
+            },
+            {
+                "type": "text",
+                "string": "Tap to view details",
+                "textColor": "#0078d4",
+                "textAlignment": "left",
+                "paddingLeft": 12,
+                "fontSize": 13,
+                "fontStyle": "bold"
+            }
+        ]
+    }
+}

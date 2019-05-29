@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link href="styles.css" rel="stylesheet">
+    <script type="text/javascript" src="KASClient.js"></script>
+    <script type="text/javascript" src="CreationView.js"></script>
+    <script type="text/javascript" src="Config.js"></script>
+</head>
+
+<body onLoad="onPageLoad()" class="page">
+    <div class="header header-background">
+        <div id="back-button" class="back-button"><img class="back-icon"></div>
+        <div class="icon-image"><img class="app-icon"></div>
+        <div class="header-label" id="header-label"></div>
+        <div id="submit" class="send-label disabled"></div>
+    </div>
+    <div id="container" class="body-container">
+        <div id="page_1" type="page">
+            <div id="SECTION1" class="section-label"> </div>
+
+            <div class="section-div">
+                <div id="LABEL0" class="field-label"> </div>
+                <input id="INPUT1" type="text" contenteditable="true" class="textbox-1">
+            </div>
+
+            <div class="section-div">
+                <div id="LABEL1" class="field-label"> </div>
+                <input id="INPUT2" type="text" contenteditable="true" class="textbox-1">
+            </div>
+
+            <div class="section-div">
+                <div id="LABEL2" class="field-label"></div>
+                <select id="LIST_0" class="txt-data"></select>
+            </div>
+
+            <div id="SECTION2" class="section-label"> </div>
+            <div class="section-div">
+                <div id="LABEL3" class="field-label"> </div>
+                <input id="INPUT4" type="text" contenteditable="true" class="textbox-1">
+            </div>
+
+            <div class="section-div">
+                <div id="LABEL4" class="field-label"> </div>
+                <input id="INPUT5" type="number" contenteditable="true" class="textbox-1">
+            </div>
+
+            <div class="section-div">
+                <div id="LABEL5" class="field-label"> </div>
+                <input id="INPUT6" type="number" contenteditable="true" class="textbox-1">
+            </div>
+
+            <div class="section-div">
+                <div id="LABEL6" class="field-label"> </div>
+                <select id="LIST_1" class="txt-data"></select>
+            </div>
+
+            <div class="section-div">
+                <div id="LABEL7" class="field-label"></div>
+                <div id="INPUT8" onClick="event_click(this)" class="textbox-1 image_right_date" value=""></div>
+                <div style="width: 0px; height: 0px; overflow: hidden;">
+                    <input type="date" onChange="change_date_format(this)" class="textbox-1">
+                </div>
+            </div>
+
+            <!-- <div id="SECTION3" class="section-label"> </div> -->
+
+            <!-- <div class="section-div">
+                <div id="LABEL5" class="field-label"></div>
+                <select id="LIST_1" class="txt-data"></select>
+            </div> -->
+
+            <!-- <div class="section-div">
+                <div id="LABEL6" class="field-label"></div>
+                <div id="INPUT7" onClick="event_click(this)" class="textbox-1 image_right_date" value=""></div>
+                <div style="width: 0px; height: 0px; overflow: hidden;">
+                    <input type="date" onChange="change_date_format(this)" class="textbox-1">
+                </div>
+            </div> -->
+
+            <div class="section-div">
+                <div id="LABEL8" class="field-label"></div>
+                <div id="INPUT9" onClick="event_click(this)" class="textbox-1 image_right_time" value=""></div>
+                <div style="width: 0px; height: 0px; overflow: hidden;">
+                    <input type="time" onChange="change_time_format(this)" class="textbox-1">
+                </div>
+            </div>
+
+            <!-- <div class="section-div">
+                <div id="LABEL8" class="field-label"></div>
+                <textarea id="INPUT9" contenteditable="true" class="text-area"></textarea>
+            </div> -->
+            <div class="section-div">
+                <div id="LABEL10" class="field-label"></div>
+                <div class="scroll-div">
+                    <div id="horizontal-attachment-div" class="horizontal-div">
+                        <div class="attachment-div">
+                            <img id="attachment-img" class="section-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-div">
+                <div id="LABEL11" class="field-label"></div>
+                <img class="location-image" id="location">
+                <div style="padding: 8px 15pt 15pt; display: inline-flex;">
+                    <div class="location-div1">
+                        <label class="location-address" id="location_text"></label>
+                    </div>
+                    <div class="location-div2">
+                        <label id="refresh-location-text" onclick="refreshLocation();" class="refresh-location-text"></label>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        <input class="footer-action-previous" type="submit" value="" onclick="navigateToPreviousPage()" id="previous-page" />
+        <div id="progress-div" class="footer-action progress">
+            <div id="progress-inner-div" class="progress-inner-div">
+                <div id="progress-text" class="progress-text"></div>
+                <div id="progressbar-outer-div" class="progressbar-outer-div">
+                    <div id="progressbar-inner-div" class="progressbar-inner-div"></div>
+                </div>
+            </div>
+        </div>
+        <input class="footer-action-next" type="submit" value="" onclick="navigateToNextPage()" id="next-page" />
+        <div class="footer-action-submit" type="submit" value="" id="footer-submit" style="display:none"></div>
+    </div>
+</body>
+
+</html>
